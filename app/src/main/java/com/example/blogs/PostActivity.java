@@ -143,7 +143,7 @@ public class PostActivity extends AppCompatActivity {
                             newPostId.child("search").setValue(titleVal.toLowerCase());
 
                             LastDb.child("id").setValue(newPostId.getKey());
-                            LastDb.child("title").setValue(titleVal);
+//                            LastDb.child("title").setValue(titleVal);
 
                             //hide progress
                             mProgress.dismiss();
